@@ -5,3 +5,10 @@ html {
 .Page-2011 {
   background-color: #39FF14;
 }
+
+.rainbow-text {
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;  /* For 2011 */
+  color: transparent;
+  font-size: 3em;
+}
