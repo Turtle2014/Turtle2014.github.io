@@ -5,8 +5,16 @@
   section.Page-2011 {
     background-color: green;
   }
+  .rainbow-text {
+  background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+  -webkit-background-clip: text;  /* For 2011 */
+  color: transparent;
+  font-size: 1em;
+}
 </style>
-            <section class="Page-2011">
+    </head>
+  <body>
+  <section class="Page-2011">
     <h1 class="rainbow-text">Welcome to Travis's World</h1>
     <!--Wait, why am I doing this-->
     <h2 class="rainbow-text">The place where you can learn more about ME!</h2>
@@ -17,5 +25,5 @@
     <p class="rainbow-text">I can predict the future, by the way. I guess this is how Google will look 14 years into the future.</p>
     <iframe height="400" width="400" src="https://www.google.com"></iframe>
     <button id="nana">Press this button for <blink>Free Domain!</blink>!Free domain really because you are going to be able to get it for free if you see this!</button>
-    </head>
+    </body>
 </html>
