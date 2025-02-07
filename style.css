@@ -12,3 +12,10 @@ html {
   color: transparent;
   font-size: 3em;
 }
+.rainbow-border {
+      width: 626px; /* Width of the image */
+      height: 417px; /* Height of the image */
+      border: 3px solid;
+      border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+      border-image-slice: 1;
+    }
