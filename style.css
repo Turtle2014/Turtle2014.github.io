@@ -12,6 +12,10 @@ html {
   color: transparent;
   font-size: 3em;
 }
+h1{
+  font-size: 6em;
+}
+
 .rainbow-border {
       width: 626px; /* Width of the image */
       height: 417px; /* Height of the image */
