@@ -10,11 +10,8 @@ html {
   background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text;  /* For 2011 */
   color: transparent;
-  font-size: 3em;
 }
-h1{
-  font-size: 6em;
-}
+
 
 .rainbow-border {
       width: 626px; /* Width of the image */
