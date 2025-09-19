@@ -11,3 +11,6 @@ Website:Look in the omni bar
 Phone Number: 1(803)566-6875
 Birthdays:June 28, 1971, 11:58 PM
 he does not own a masion or a yacht But he owns a Tesla.*/ 
+const ELONUSERNAME = 'ElonMusk';
+const ELONPASSWORD  = 'Money$';
+  
