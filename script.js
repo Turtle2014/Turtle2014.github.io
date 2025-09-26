@@ -13,4 +13,12 @@ Birthdays:June 28, 1971, 11:58 PM
 he does not own a masion or a yacht But he owns a Tesla.*/ 
 const ELONUSERNAME = 'ElonMusk';
 const ELONPASSWORD  = 'Money$';
-  
+const form = document.getElementById('loginForm');
+const msg = document.getElementById('message);
+const secret= document.getElementById('secret');
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+const user = document.getElementById('username').value;
+const pass = document.getElementById('password').value;
+
